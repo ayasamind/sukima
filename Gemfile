@@ -25,7 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 
 gem 'therubyracer', platforms: :ruby
-gem 'less-rails'
+gem 'less-rails', git: 'https://github.com/MustafaZain/less-rails'
 gem 'twitter-bootstrap-rails'
 
 gem 'arel', '6.0.0.beta2'
@@ -33,6 +33,8 @@ gem 'arel', '6.0.0.beta2'
 
 gem 'devise'
 gem 'omniauth-twitter'
+gem 'omniauth'
+gem 'omniauth-facebook'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
